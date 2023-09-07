@@ -1,0 +1,36 @@
+#pragma shader_feature  _ A B C
+...
+#if A
+111111111
+#endif
+
+#if B
+222222222
+#endif
+
+#if C
+33333333
+#endif
+
+Mat keywords: BC
+out put 2222222222
+
+---------------------------------------------------------
+
+#pragma shader_feature  _ A B
+#pragma shader_feature C
+...
+#if A
+111111111
+#endif
+
+#if B
+222222222
+#endif
+
+#if C
+33333333
+#endif
+
+Mat keywords: BC
+out put 33333333
