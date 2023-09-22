@@ -12,7 +12,7 @@
 33333333
 #endif
 
-Mat keywords: BC
+Mat keywords: BC (B has higher priority than C)
 out put 2222222222
 
 ---------------------------------------------------------
@@ -33,4 +33,4 @@ out put 2222222222
 #endif
 
 Mat keywords: BC
-out put 33333333
+out put 33333333 (C over write B)
